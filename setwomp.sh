@@ -10,10 +10,10 @@ fi
 
 hour=`date +%H`
 
-if [ "$hour" -ge 22 -a "$hour" -lt 8 ] ; then
+if [ "$hour" -ge 22 -o "$hour" -lt 8 ] ; then
     pmset -a womp 0
     echo "WOMP off"
 else
     pmset -a womp 1
-    echo "WOMP off"
+    echo "WOMP on"
 fi
