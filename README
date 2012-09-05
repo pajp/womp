@@ -1,0 +1,3 @@
+To install:
+
+  sh <(curl -fsSL https://raw.github.com/pajp/womp/master/bootstrap.sh)
