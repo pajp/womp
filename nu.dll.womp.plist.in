@@ -14,7 +14,7 @@
 	<string>nu.dll.womp</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Users/rasmus/womp/setwomp.sh</string>
+		<string>%WOMPDIR%/setwomp.sh</string>
 	</array>
 	<key>StartInterval</key>
 	<integer>1800</integer>
