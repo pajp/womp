@@ -14,8 +14,8 @@ hour=`date +%H`
 
 if [ "$hour" -ge 22 -o "$hour" -lt 8 ] ; then
     pmset -a womp 0
-    echo "WOMP off"
+    logger -t "$0" "WOMP off"
 else
     pmset -a womp 1
-    echo "WOMP on"
+    logger -t "$0" "WOMP on"
 fi
